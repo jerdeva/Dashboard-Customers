@@ -393,3 +393,10 @@ body {
     margin: 0;
     font-family: "Poppins",sans-serif;;
 }
+.navigation{
+    color:#B5B7C0;
+}
+
+.navigation:hover{
+    color: #4f4f53;
+}
