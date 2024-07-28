@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    ;
+}
+
 
 ul{
     list-style: none;
@@ -11,6 +17,10 @@ button{
     cursor: pointer;
 }
 
+
+.container {
+    width: 100%;
+}
 
 .genelal-title {
     font-weight: 600;
@@ -63,8 +73,6 @@ button{
 .menu-item:hover .menu-item-paragrapher {
     color: white;
 }
-
-
 
 .users-info {
     display: flex;
@@ -151,7 +159,7 @@ button{
 
 .table-row {
     border: 1px solid #EEEEEE;
-    padding: 8px;
+    padding: 4px;
 }
 
 
@@ -166,14 +174,14 @@ button{
 .msg-hello {
     font-weight: 500;
     font-size: 24px;
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
-.container {
-    max-width: 280px;
-    margin: 0 auto;
+@media screen and (min-width:424px) and (max-width: 1199px) {
+    .container {
+        width: 428px;
+        }
 }
-
 
 .container-mob {
     margin-left: 12px;
@@ -228,7 +236,7 @@ button{
 
 
 th:nth-child(1) {
-    width: 15px;
+    width: 10px;
 }
 
 th:nth-child(2) {
@@ -269,71 +277,68 @@ th {
 }
 
 
-@media  (max-width:1200px) {
+@media  screen and (max-width: 1199px) {
 .general-side {
     display: none;
     }
-
 }
 
-@media (min-width: 1200px){
+@media screen and (min-width: 1200px){
 .container {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    max-width: 1200px;
+    display: flex; 
+    justify-content: center; 
     }
 
 .menu-item {
     display: flex;
     align-items: center;
-    width: 250px;
     justify-content: space-between;
-    margin-right: 42px;
+    margin-right: 36px;
     padding: 12px 8px;
     border-radius: 10px;
 }
 
 .table-container {
-    padding-left: 38px;
-    padding-right: 53px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 table {
     table-layout: fixed;
-    width: 100%;
     border-collapse: collapse;
     border: 1px solid #EEEEEE;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
 }
 
  th:nth-child(1) {
-     width: 15%;
+     width: 25%;
  }
 
  th:nth-child(2) {
-     width: 10%;
+     width: 5%;
  }
 
  th:nth-child(3) {
-     width: 15%;
+     width: 30%;
  }
 
  th:nth-child(4) {
-     width: 15%;
+     width: 20%;
  }
 
  th:nth-child(5) {
-     width: 10%;
+     width: 20%;
  }
 
  th:nth-child(6) {
-     width: 10%;
+     width: 5%;
  }
  th,
  td {
      padding: 20px;
      font-weight: 500;
-     font-size: 14px;
+     font-size: 12px;
  }
 
  th {
@@ -355,40 +360,31 @@ table {
 
 
 .general-side{
-    padding-left: 70px;
+    padding-left: 20px;
     background-color: lightgray;
-    padding-right: 95px;
-    padding-bottom: 56px;
+    padding-right: 20px;
+    padding-bottom: 36px;
 }
 
 
 .header-of-the-table{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
-
-
 
 
 .table-container{
-    width: 968px;
-    height: 812px;
     background-color: #FFFFFF;
     border-radius: 3%;
     padding-top: 30px;
+    padding-bottom: 40px;
+}
 
 }
 
 
 
-}
-
-
-body {
-    margin: 0;
-    font-family: "Poppins",sans-serif;;
-}
 .navigation{
     color:#B5B7C0;
 }
